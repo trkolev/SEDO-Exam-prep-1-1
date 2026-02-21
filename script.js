@@ -24,6 +24,8 @@ function calculateAndDisplay(fn) {
   document.getElementById('result').textContent = fn(a, b);
 }
 
+//This is just for test
+
 document.getElementById('btn-add')
   .addEventListener('click', () => calculateAndDisplay(add));
 
